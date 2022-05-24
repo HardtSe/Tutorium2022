@@ -10,6 +10,11 @@ public class Bisasam extends Pokemon implements Blatt {
 		super(hp, level);
 		setName("Bisasam");
 	}
+	
+	public Bisasam(int hp, int level, String name) {
+		super(hp, level);
+		setName(name);
+	}
 
 	@Override
 	public String blattAttacke() {

@@ -10,6 +10,11 @@ public class Schiggy extends Pokemon implements Wasser {
 		super(hp, level);
 		setName("Schiggy");
 	}
+	
+	public Schiggy(int hp, int level, String name) {
+		super(hp, level);
+		setName(name);
+	}
 
 	@Override
 	public String wasserAttacke() {

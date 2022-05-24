@@ -2,9 +2,9 @@
 public class PokemonKampf {
 
 	public static void main(String[] args) {
-		Glumanda glumanda = new Glumanda(200, 20, "Glumanda1");
-		Glumanda glumanda2 = new Glumanda(180, 18, "Glumanda2");
-		System.out.println(fight(glumanda, glumanda2));
+		Schiggy schiggy = new Schiggy(200, 20, "Schiggy");
+		Bisasam bisasam = new Bisasam(180, 18, "Bisasam");
+		System.out.println(fight(schiggy, bisasam));
 	}
 	
 	public static String fight(Pokemon angreifer, Pokemon verteidiger) {
