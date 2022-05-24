@@ -49,7 +49,7 @@ public class Main {
 			// Pruefe ob es einen Query-Part gibt, und verarbeite
 			int queryBegin = input.indexOf('?');
 			if (queryBegin != -1) {
-				query = input.substring(queryBegin + 1);
+				query = input.substring(queryBegin);
 				input = input.substring(0, queryBegin);
 			}
 			// Pruefe ob es einen Pfad gibt, und verarbeite
